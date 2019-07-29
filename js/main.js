@@ -18,10 +18,6 @@ function getEle(id) {
     return document.getElementById(id);
 }
 
-function themNguoiDung() {
-    console.log("them nguoi dung")
-}
-
 function LayThongTin() {
     //lay thong tin
     var maNV = getEle("msnv").value;
